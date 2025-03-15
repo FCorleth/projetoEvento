@@ -11,7 +11,7 @@ export default function SearchBar() {
       <Input
         type="text"
         placeholder="Pesquisar"
-        className="!text-[20px] font-regular h-auto py-[16px] pl-[50px] pr-4 border rounded-[13px] w-full shadow-none"
+        className="!text-[20px] font-regular h-auto py-[16px] pl-[50px] pr-4 border rounded-[13px] w-full shadow-none focus:outline-none focus:ring-0 focus:shadow-none"
       />
     </div>
   );

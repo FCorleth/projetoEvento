@@ -1,11 +1,18 @@
-import { Mail } from "lucide-react";
+import * as React from "react";
 
-import { Button } from "@/components/ui/button";
-
-export function ButtonWithIcon() {
-  return (
-    <Button className="w-[281px] bg-[#9F6AFF] text-[#FFF] text-[20px] font-regular h-[58px] rounded-[13px] ml-[64px]">
-      <Mail /> Eventos em Destaques
-    </Button>
-  );
+interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  children: React.ReactNode;
 }
+
+const Button: React.FC<ButtonProps> = ({ children, className, ...props }) => {
+  return (
+    <button
+      className={`flex items-center hover:bg-[#744CBD] trasition duration-400 ${className}`}
+      {...props}
+    >
+      {children}
+    </button>
+  );
+};
+
+export default Button;
