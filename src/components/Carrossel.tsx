@@ -1,7 +1,9 @@
+"use client";
 import * as React from "react";
 import { Event } from "@/types/index";
 import { Card, CardContent } from "@/components/ui/card";
 import Button from "./Button";
+import { useRouter } from "next/navigation";
 import {
   Carousel,
   CarouselContent,
@@ -12,6 +14,8 @@ import {
 import Image from "next/image";
 
 export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
+  const router = useRouter();
+
   return (
     <Carousel className="w-full mt-9 mb-40 px-16">
       <CarouselContent>
@@ -58,8 +62,13 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
                       </span>
                     </div>
 
-                    <div className="">
-                      <Button className="w-[11=71px] bg-[#9F6AFF] text-[#FFF] text-[20px] font-regular h-[58px] rounded-[13px] flex justify-center gap-[16px] items-end pb-[20px] p-[24px]">
+                    <div>
+                      <Button
+                        onClick={() => {
+                          router.push(`/eventos/${evento.id}`);
+                        }}
+                        className="w-[11=71px] bg-[#9F6AFF] text-[#FFF] text-[18px] font-regular h-[58px] rounded-[13px] flex justify-center gap-[16px] items-end pb-[20px] p-[24px] cursor-pointer"
+                      >
                         <span className="leading-none">Ver detalhes</span>
                         <Image
                           alt="seta"
@@ -76,9 +85,9 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <div className="relative top-[50px] w-[41px] left-[50%]">
-        <CarouselPrevious className="h-[49px] w-[49px]" />
-        <CarouselNext className="h-[49px] w-[49px]" />
+      <div className="relative top-[50px] w-[41px] left-[50%] ">
+        <CarouselPrevious className="h-[49px] w-[49px] cursor-pointer" />
+        <CarouselNext className="h-[49px] w-[49px] cursor-pointer" />
       </div>
     </Carousel>
   );

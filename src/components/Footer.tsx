@@ -9,7 +9,7 @@ const Footer = () => {
           <h1 className="font-extrabold italic text-[74px] text-[#F8F8F8] leading-none mb-[26px]">
             Events.
           </h1>
-          <p className="font-regular text-[20px] text-[#CFB4FF] w-[350px]">
+          <p className="font-regular text-[20px] text-[#CFB4FF] w-[370px]">
             A Events é uma agência especializada na criação de eventos
             personalizados, oferecendo soluções completas para ocasiões
             corporativas, sociais, casamentos e festas temáticas.
