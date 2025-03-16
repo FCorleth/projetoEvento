@@ -2,6 +2,8 @@
 
 Este repositório contém o protótipo do site "Events", uma plataforma de inscrições para eventos. O objetivo do site é proporcionar uma experiência simples e intuitiva para os usuários, permitindo que visualizem eventos e se inscrevam neles rapidamente.
 
+Link do Figma: https://www.figma.com/design/DmfY3ZaLlpyZqEB2pQSceL/Processo-Seletivo?node-id=0-1&t=9jaRwApitd49jnjI-1
+
 ## **Descrição**
 
 O site "Events" oferece uma interface moderna e responsiva com um carrossel interativo de eventos. O usuário pode visualizar as informações detalhadas de cada evento e se inscrever diretamente. O design foi pensado para garantir uma experiência agradável e eficiente. O projeto inclui uma barra de navegação, título, footer, e interações de notificação, tornando o site fácil de navegar e interagir.
