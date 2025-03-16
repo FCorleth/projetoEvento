@@ -18,8 +18,6 @@ O site "Events" oferece uma interface moderna e responsiva com um carrossel inte
 
 ## **Tecnologias Usadas**
 
-- **HTML5**: Para estruturação do conteúdo.
-- **CSS3**: Para estilização do site.
 - **Tailwind CSS**: Framework CSS utilizado para garantir um design responsivo e flexível.
 - **Javascript**: Para adicionar interatividade, como navegação no carrossel e exibição de notificações.
 - **Next.js**: Framework React para criação de aplicações web rápidas e escaláveis com funcionalidades como renderização do lado do servidor e geração de páginas estáticas.
@@ -47,6 +45,7 @@ O layout foi projetado para ser simples e intuitivo, com uma navegação fácil 
 - **Barra de Navegação**: Localizada no topo da página, permite que o usuário acesse as principais seções do site. A barra é fixa para facilitar o acesso a qualquer momento.
 - **Carrossel de Eventos**: O carrossel horizontal permite que o usuário explore diversos eventos sem sobrecarregar a página. A navegação do carrossel é feita com um clique, permitindo que o usuário veja rapidamente as opções de eventos.
 - **Seções de Detalhes**: Ao clicar em um evento, o usuário é levado a uma página expandida com informações detalhadas, mantendo a interação simples e direta.
+- **Responsividade**: O design é 100% responsivo, adaptando-se de forma eficaz em dispositivos móveis e tablets. Isso é essencial, pois muitos usuários acessam sites de eventos através de dispositivos móveis.
 
 ### **4. Interatividade**
 A interatividade foi pensada para ser intuitiva e eficiente:
@@ -64,6 +63,11 @@ Para rodar o projeto localmente:
    ```bash
    git clone https://github.com/FCorleth/projetoEvento.git
    ```
+   
+2.Instale os frameworks necessários
+```bash
+npm install
+```
 
 2. Navegue até o diretório do projeto:
 
