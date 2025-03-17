@@ -121,6 +121,18 @@
   }
   body {
     @apply bg-background text-foreground;
+    margin: 0;
+    padding: 0;
     font-family: "Plus Jakarta Sans", sans-serif;
+  }
+  main {
+    padding: 0 1rem;
+    max-width: 100%;
+  }
+
+  @media (max-width: 640px) {
+    main {
+      padding: 0 0.5rem;
+    }
   }
 }

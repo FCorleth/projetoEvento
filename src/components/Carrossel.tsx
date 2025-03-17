@@ -17,12 +17,12 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
   const router = useRouter();
 
   return (
-    <Carousel className="w-full mt-9 mb-40 px-16">
+    <Carousel className="w-full mt-9 mb-40 px-16 max-sm:p-0">
       <CarouselContent>
         {eventos.map((evento, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <Card className="w-[343px] h-[436px] rounded-[13px] border-[#DEDEDE]">
+              <Card className="w-[343px] h-[436px] rounded-[13px] border-[#DEDEDE] max-sm:w-[260px]">
                 <CardContent className="flex flex-col leading-none">
                   <div className="relative w-full h-[161px]">
                     <Image
@@ -33,7 +33,7 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
                       className="rounded-t-[13px]"
                     />
                   </div>
-                  <div className="pl-[32px]">
+                  <div className="pl-[32px] max-sm:pl-[24px]">
                     <h2 className="text-[20px] font-bold mt-[31px] mb-[7px]">
                       {evento.name}
                     </h2>
