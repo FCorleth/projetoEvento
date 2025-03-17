@@ -53,7 +53,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="font-regular text-sm sm:text-base lg:text-[20px] text-[#CFB4FF] flex flex-col lg:flex-row w-full justify-between items-center lg:items-start border-t-[1px] border-[#AF83FF] mt-10 lg:mt-[100px] xl:mt-[165px] pt-6 lg:pt-[78px] gap-2 lg:gap-4">
+      <div className="font-regular text-sm sm:text-base lg:text-[20px] text-[#CFB4FF] flex flex-col lg:flex-row w-full justify-between lg:items-start border-t-[1px] border-[#AF83FF] mt-10 lg:mt-[100px] xl:mt-[165px] pt-6 lg:pt-[78px] gap-2 lg:gap-4 text-left">
         <h3>© Copyright 2025.</h3>
         <h3>Todos os direitos reservados.</h3>
       </div>

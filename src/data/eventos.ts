@@ -31,8 +31,8 @@ export const eventos: Event[] = [
   },
   {
     id: 2,
-    name: "Festival Indie Music 2025",
-    subtitle: "Curta bandas independentes de rock e eletrônica.",
+    name: "Festival Music 2025",
+    subtitle: "Curta bandas de rock e eletrônica.",
     local: "Belo Horizonte, MG",
     date: "15 de junho de 2025",
     image: "/indie-music-2025.png",
@@ -60,9 +60,8 @@ export const eventos: Event[] = [
   },
   {
     id: 3,
-    name: "Corrida Noturna Experience",
-    subtitle:
-      "Uma corrida de 5km iluminada e DJ ao vivo para motivar os corredores.",
+    name: "Corrida Experience",
+    subtitle: "Uma corrida de 5km iluminada e DJ ao vivo.",
     local: "São Paulo, SP",
     date: "30 de novembro de 2025",
     image: "/corrida-noturna-2025.png",
@@ -87,7 +86,7 @@ export const eventos: Event[] = [
   {
     id: 4,
     name: "Imersão Teatral 2025",
-    subtitle: "Mergulhe no mundo do teatro com workshops e apresentações.",
+    subtitle: "Mergulhe no mundo do teatro com apresentações.",
     local: "Curitiba, PR",
     date: "12 de setembro de 2025",
     image: "/teatro.webp",
@@ -111,7 +110,7 @@ export const eventos: Event[] = [
   },
   {
     id: 5,
-    name: "Feira Gastronômica 2025",
+    name: "Feira Gastronômica",
     subtitle: "Uma explosão de sabores da culinária mundial.",
     local: "Rio de Janeiro, RJ",
     date: "20 de julho de 2025",

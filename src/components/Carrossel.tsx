@@ -22,7 +22,7 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
         {eventos.map((evento, index) => (
           <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
             <div className="p-1">
-              <Card className="w-[343px] h-[436px] rounded-[13px] border-[#DEDEDE] max-sm:w-[260px]">
+              <Card className="w-[343px] h-[436px] rounded-[13px] border-[#DEDEDE] max-sm:w-[260px] m-auto">
                 <CardContent className="flex flex-col leading-none">
                   <div className="relative w-full h-[161px]">
                     <Image
@@ -37,7 +37,7 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
                     <h2 className="text-[20px] font-bold mt-[31px] mb-[7px]">
                       {evento.name}
                     </h2>
-                    <p className="text-[15px] text-[#535353] font-regular w-[248px] mb-[27px]">
+                    <p className="text-[15px] text-[#535353] font-regular w-[260px] mb-[27px] max-sm:w-[200px]">
                       {evento.subtitle}
                     </p>
                     <div className="flex flex-col gap-[11px] mb-[20px]">
@@ -85,7 +85,7 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
           </CarouselItem>
         ))}
       </CarouselContent>
-      <div className="relative top-[50px] w-[41px] left-[50%] ">
+      <div className="relative top-[50px] w-[41px] m-auto">
         <CarouselPrevious className="h-[49px] w-[49px] cursor-pointer" />
         <CarouselNext className="h-[49px] w-[49px] cursor-pointer" />
       </div>
