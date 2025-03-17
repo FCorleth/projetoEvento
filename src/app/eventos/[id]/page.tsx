@@ -189,7 +189,7 @@ const Page = () => {
           <Toaster position="top-right" />
           <SonnerDemo />
         </div>
-        <div className="w-full lg:w-[300px] mt-8 lg:mt-[60px] lg:ml-[80px] xl:ml-[150px] leading-relaxed lg:leading-[36px] mb-8 lg:mb-0 flex-shrink-0 text-center lg:text-left">
+        <div className="w-full lg:w-[400px] lg:mt-[60px] lg:mr-[152px] xl:ml-[150px] leading-relaxed lg:leading-[36px] mb-8 lg:mb-0 flex-shrink-0 text-center lg:text-left">
           <h4 className="font-semibold text-sm lg:text-[15px] text-[#535353] uppercase mb-4 lg:mb-[21px]">
             Palestrantes Confirmados
           </h4>
