@@ -1,7 +1,12 @@
-import { Input } from "@/components/ui/input";
+import { Input } from "./ui/input";
 import { Search } from "lucide-react";
 
-export default function SearchBar() {
+interface SearchBarProps {
+  searchTerm: string;
+  setSearchTerm: (value: string) => void;
+}
+
+const SearchBar = ({ searchTerm, setSearchTerm }: SearchBarProps) => {
   return (
     <div className="relative w-full">
       <Search
@@ -10,9 +15,13 @@ export default function SearchBar() {
       />
       <Input
         type="text"
-        placeholder="Pesquisar"
+        placeholder="Pesquisar evento"
         className="!text-[18px] font-regular h-auto py-[16px] pl-[50px] pr-4 border rounded-[13px] w-full shadow-none focus:outline-none focus:ring-0 focus:shadow-none"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
       />
     </div>
   );
-}
+};
+
+export default SearchBar;
