@@ -20,7 +20,10 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
     <Carousel className="w-full mt-9 mb-40 px-16 max-sm:p-0">
       <CarouselContent>
         {eventos.map((evento, index) => (
-          <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+          <CarouselItem
+            key={index}
+            className="md:basis-1/1 lg:basis-1/2 xl:basis-1/3 2xl:basis-1/4 "
+          >
             <div className="p-1">
               <Card className="w-[343px] h-[436px] rounded-[13px] border-[#DEDEDE] max-sm:w-[260px] m-auto">
                 <CardContent className="flex flex-col leading-none">
