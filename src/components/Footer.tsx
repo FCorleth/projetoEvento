@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="mx-3 md:m-[32px] p-6 md:p-[83px] bg-[#9F6AFF] rounded-2xl md:rounded-[45px]">
       <div className="flex flex-col lg:flex-row gap-10 md:gap-8 lg:gap-0 items-center lg:items-start">
-        <div className="w-full max-w-[95%] lg:max-w-[370px] text-center lg:text-left">
+        <div className="w-full max-w-[95%] lg:max-w-[370px] text-left">
           <h1 className="font-extrabold italic text-3xl sm:text-4xl lg:text-[74px] text-[#F8F8F8] leading-tight lg:leading-none mb-4 lg:mb-[26px]">
             Events.
           </h1>
@@ -15,11 +15,11 @@ const Footer = () => {
             corporativas, sociais, casamentos e festas temáticas.
           </p>
         </div>
-        <div className="w-full max-w-[95%] lg:max-w-none leading-normal lg:leading-none lg:ml-[100px] xl:ml-[188px] text-center lg:text-left">
+        <div className="w-full max-w-[95%] lg:max-w-none leading-normal lg:leading-none lg:ml-[100px] xl:ml-[188px] text-left">
           <h2 className="font-regular text-sm sm:text-base lg:text-[20px] text-[#CFB4FF] mb-4 lg:mb-[21px] uppercase">
             SUPORTE
           </h2>
-          <div className="font-semibold text-sm sm:text-base lg:text-[20px] text-[#FFFFFF] gap-3 lg:gap-[17px] flex flex-col items-center lg:items-start">
+          <div className="font-semibold text-sm sm:text-base lg:text-[20px] text-[#FFFFFF] gap-3 lg:gap-[17px] flex flex-col lg:items-start">
             <p className="hover:text-[#CFB4FF] transition-colors cursor-pointer">
               Dúvidas
             </p>
@@ -31,11 +31,11 @@ const Footer = () => {
             </p>
           </div>
         </div>
-        <div className="w-full max-w-[95%] lg:max-w-none lg:ml-[40px] xl:ml-[57px] text-center lg:text-left">
+        <div className="w-full max-w-[95%] lg:max-w-none lg:ml-[40px] xl:ml-[57px] text-left">
           <h2 className="font-regular text-sm sm:text-base lg:text-[20px] text-[#CFB4FF] mb-4 lg:mb-[21px] w-full lg:w-[151px] leading-normal lg:leading-none uppercase">
             SIGA NOSSAS REDES SOCIAIS
           </h2>
-          <div className="flex gap-4 lg:gap-[20px] justify-center lg:justify-start">
+          <div className="flex gap-4 lg:gap-[20px] lg:justify-start">
             <Image
               alt="Instagram"
               src="/instagram.svg"

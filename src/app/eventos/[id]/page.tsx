@@ -61,7 +61,7 @@ const Page = () => {
             </li>
           </ul>
 
-          <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 mt-6 lg:mt-[27px] justify-center lg:justify-start">
+          <div className="flex flex-col lg:flex-col gap-4 lg:gap-3 mt-6 lg:mt-[27px] justify-center lg:justify-start">
             <span className="text-sm lg:text-[15px] font-regular flex gap-2 lg:gap-[9px] items-center justify-center lg:justify-start">
               <Image
                 alt="localização"
