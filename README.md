@@ -65,15 +65,17 @@ Para rodar o projeto localmente:
    ```
    
 2.Instale os frameworks necessários
-```bash
-npm install
-```
 
-2. Navegue até o diretório do projeto:
+  ```bash
+  npm install
+  ```
+
+3. Navegue até o diretório do projeto:
 
    ```bash
    cd projetoEvento
    ```
+   
 ---
 ## **Autores**
 
