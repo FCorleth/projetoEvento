@@ -22,7 +22,7 @@ export function CarouselSpacing({ eventos }: { eventos: Event[] }) {
         {eventos.map((evento, index) => (
           <CarouselItem
             key={index}
-            className="md:basis-1/1 lg:basis-1/2 xl:basis-1/3 2xl:basis-1/4 "
+            className="md:basis-1/1 lg:basis-1/2 xl:basis-1/3 "
           >
             <div className="p-1">
               <Card className="w-[343px] h-[436px] rounded-[13px] border-[#DEDEDE] max-sm:w-[260px] m-auto">
